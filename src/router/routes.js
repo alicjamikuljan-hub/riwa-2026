@@ -50,6 +50,10 @@ const routes = [
       }
       ,
       {
+        path: 'test4',
+        component: ()=> import('../pages/TestPage4.vue')
+      },
+      {
         path: 'users',
         component: () => import('../pages/UsersPage.vue')
       }

@@ -91,6 +91,12 @@ const linksList = [
     caption: 'Registracija novog korisnika',
     icon: 'person_add',
     link: '#/registracija'
+  },
+  {
+    label: 'Test stranica 4',
+    caption: 'Test stranica 4',
+    icon: 'test_tube',
+    link: '#/test4'
   }
   
 ]
