@@ -11,8 +11,8 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>
-          Quasar App
+        <q-toolbar-title class="text-h1 text-weight-bold">
+          Knjiznica-app
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -51,47 +51,48 @@ import EssentialLink from '@/components/EssentialLink.vue'
 
 const linksList = [
   {
-    label: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    label: 'Naslovnica',
+    caption: 'Početna stranica',
+    icon: 'home',
+    link: '#/'
   },
   {
-    label: 'GitHub',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    label: 'Popis svih knjiga',
+    caption: 'Pregled svih knjiga',
+    icon: 'menu_book',
+    link: '#/popis_knjiga'
   },
   {
-    label: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    label: 'Pretraživanje',
+    caption: 'Pronađi svoju knjigu',
+    icon: 'search',
+    link: '#/pretraživanje'
   },
   {
-    label: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    label: 'O nama',
+    caption: 'Informacije o knjižnici',
+    icon: 'info',
+    link: '#/o_nama'
   },
   {
-    label: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    label: 'Lokacija',
+    caption: 'Gdje se nalazimo',
+    icon: 'location_on',
+    link: '#/lokacija'
   },
   {
-    label: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    label: 'Login',
+    caption: 'Prijava korisnika',
+    icon: 'login',
+    link: '#/login'
   },
   {
-    label: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    label: 'Registracija',
+    caption: 'Registracija novog korisnika',
+    icon: 'person_add',
+    link: '#/registracija'
   }
+  
 ]
 
 const leftDrawerOpen = ref(false)
