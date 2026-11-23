@@ -97,6 +97,12 @@ const linksList = [
     caption: 'Test stranica 4',
     icon: 'test_tube',
     link: '#/test4'
+  },
+  {
+    label: 'Random stranica',
+    caption: 'Random stranica',
+    icon: 'test',
+    link: '#/random'
   }
   
 ]

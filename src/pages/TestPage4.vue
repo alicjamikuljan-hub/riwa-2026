@@ -35,7 +35,7 @@
     <q-card-section>
         {{ Polje }}
     </q-card-section>
-    <q-card-section v-for="t.Polje in msg" :key="t.Polje">
+    <q-card-section v-for="Polje in msg" :key="t.Polje">
         {{ t.Polje}}
     </q-card-section>
 </q-card>

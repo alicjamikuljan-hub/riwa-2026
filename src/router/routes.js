@@ -56,6 +56,10 @@ const routes = [
       {
         path: 'users',
         component: () => import('../pages/UsersPage.vue')
+      },
+      {
+        path: 'random',
+        component: () => import ('../pages/RandomPage.vue')
       }
     ]
   },
